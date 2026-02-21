@@ -38,7 +38,7 @@ Before executing:
 ## Install
 
 ```bash
-clawhub install ibt-v2
+clawhub install ibt
 ```
 
 ## License

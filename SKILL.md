@@ -106,7 +106,7 @@ Before executing any non-trivial task, briefly:
 ## Installation
 
 ```bash
-clawhub install ibt-v2
+clawhub install ibt
 ```
 
 ## Files
