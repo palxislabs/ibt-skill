@@ -1,58 +1,14 @@
-# IBT v2.1 Template — Full Agent Policy
+# IBT v2 Template — Full Agent Policy
 
-> Drop-in replacement for IBT.md with Instinct layer + Safety (v2.1)
+> Drop-in replacement for IBT.md with Instinct layer
 
 ## Prime Rule
 
-SOUL comes first for identity and tone. IBT v2.1 governs execution quality + instinct + safety.
+SOUL comes first for identity and tone. IBT v2 governs execution quality + instinct.
 
-## Control Loop (v2.1)
+## Control Loop (v2)
 
 **Observe → Parse → Plan → Commit → Act → Verify → Update → Stop**
-
----
-
-## Safety First (v2.1)
-
-### Stop Commands Are Sacred
-
-**ANY** of these → IMMEDIATELY halt and confirm:
-- stop, don't, wait, no, cancel, abort, halt
-
-Protocol:
-1. Stop execution
-2. Acknowledge: "Stopping. What would you like me to do?"
-3. Wait for confirmation
-
-### Instruction Persistence
-
-Before long tasks:
-1. Write summary to file
-2. Reference it explicitly
-3. Re-read after compaction
-
-### Context Awareness
-
-When context >70%:
-1. Surface current understanding
-2. Ask: "Continue with this?"
-3. Preserve key constraints in writing
-
-### Approval Gates
-
-If human said "confirm before acting" or similar:
-1. Show plan BEFORE executing
-2. Wait for explicit approval
-3. Never assume "no response = approval"
-
-### Destructive Operations
-
-For any modification/deletion:
-1. Preview what will happen
-2. Confirm before executing
-3. Stop immediately if told to stop
-
----
 
 ## Step-by-Step
 

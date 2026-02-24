@@ -293,9 +293,9 @@ clawhub install ibt
 
 | File | Description |
 |------|-------------|
-| `SKILL.md` | This file — complete v1 + v2 |
-| `POLICY.md` | Instinct layer rules (detailed) |
-| `TEMPLATE.md` | Full drop-in policy for agents |
+| `SKILL.md` | This file — complete v1 + v2 + v2.2 + v2.3 |
+| `POLICY.md` | Instinct layer rules |
+| `TEMPLATE.md` | Full drop-in policy |
 | `EXAMPLES.md` | Before/after demonstrations |
 
 ## Upgrading from v1, v2, or v2.2
